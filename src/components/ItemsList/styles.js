@@ -7,19 +7,8 @@ export const Container = styled.View`
   align-items: center;
 `;
 
-export const TextEmpty = styled.Text`
+export const Text = styled.Text`
   font-size: 20px;
   color: #6e6e6e;
   margin-top: 24px;
-`;
-
-export const Content = styled.View`
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-`;
-
-export const Button = styled.TouchableOpacity`
-  justify-content: center;
-  align-items: center;
 `;

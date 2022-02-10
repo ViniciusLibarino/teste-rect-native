@@ -3,7 +3,7 @@ import { Alert } from 'react-native';
 import { Header } from '../../components/Header';
 import { ItemInput } from '../../components/ItemInput';
 import { ItemsList } from '../../components/ItemsList';
-import { Container, Wrapper, ContentList, Text } from './styles';
+import { Container } from './styles';
 
 export const Home = () => {
   const [items, setItems] = useState([]);
@@ -76,17 +76,6 @@ export const Home = () => {
         editItem={handleEditItem}
       />
       <ItemInput addItem={handleAddItem} />
-      {/*<Wrapper>
-      <ContentList>
-      <FlatList
-      data={Items}
-      keyExtractor={(item) => item}
-      renderItem={({ item }) => {
-        <ListItem itemDescription={item} />;
-      }}
-      />
-      </ContentList>
-    </Wrapper>*/}
     </Container>
   );
 };
